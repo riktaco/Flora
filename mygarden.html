@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      html {
+        font-family: 'Urbanist', sans-serif;
+        text-align: center;
+      }
+      body { background-color: #d7bfd9; }
+      h1 { 
+          color: #0d5953;
+          font-size: 7.0vw; 
+          text-shadow: 2px 2px #ffffff;
+      }
+      p { 
+          font-size: 2.5vw;
+          color: #659591;
+      }
+      ul {
+        list-style-type: none;
+        margin: -0.5vw;
+        padding: 0;
+        overflow: hidden;
+        background-color: #659591ff;
+      }
+
+      li {
+        float: left;
+        font-size: 1.5vw;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 2vw 4vw;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #0d5953;
+      }
+
+      img {
+          width: 5vw; 
+          height: 5vw;
+      }
+
+      .medium {
+        font-size: 3.5vw;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><img src="flora.png"></li>
+      <li><a class="active" href="home.html">Home</a></li>
+      <li><a href="mygarden.html">My Garden</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+    </ul>
+   
+    <h1>My Garden</h1>
+    <p>
+      <span class="medium">temperature : </span>
+      <span class="medium">0</span>
+      <span class="medium">&deg;C</span>
+      <img src="temperature.png">
+    </p>
+    <p>
+      <span class="medium">humidity : </span>
+      <span class="medium">0</span>
+      <span class="medium">%</span>
+      <img src="humidity.png">
+    </p>
+
+  </body>
+</html>
